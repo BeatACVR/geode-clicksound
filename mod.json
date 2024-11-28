@@ -42,7 +42,7 @@
 		},	
 		"clicksound-section": {
 			"name": "Click Sounds",
-			"type": "custom"
+			"type": "title"
 		},
 		"enable-clicksound": {
 			"name": "Enable click sounds",
@@ -80,7 +80,7 @@
 		},
 		"releasesound-section": {
 			"name": "Release Sounds",
-			"type": "custom"
+			"type": "title"
 		},
 		"enable-releasesound": {
 			"name": "Enable release sounds",
@@ -126,7 +126,7 @@
         },
 		"misc-section": {
 			"name": "Miscellaneous",
-			"type": "custom"
+			"type": "title"
 		},
 		"settings-button": {
 			"name": "Show settings button",
