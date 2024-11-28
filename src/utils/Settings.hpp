@@ -169,6 +169,7 @@ public:
 // SECTIONS
 // Copied from Coop's new Hide+ mod (get it now!)
 
+/*
 class SectionSettingValue;
 
 class SectionSettingValue : public SettingValue {
@@ -228,3 +229,4 @@ public:
         return nullptr;
     }
 };
+*/
