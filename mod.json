@@ -1,15 +1,16 @@
 {
-	"geode": "3.4.0",
-	"version": "v1.8.3",
+	"geode": "4.0.1",
+	"version": "v1.9.0",
 	"id": "beat.click-sound",
 	"name": "Click Sounds",
 	"developers": [
-		"Cooper"
+		"Cooper",
+		"Beat"
 	],
 	"gd": {
-		"android": "2.206",
-        "win": "2.206",
-		"mac": "2.206"
+		"android": "2.274",
+        "win": "2.274",
+		"mac": "2.274"
 	},
 	"links": {
 		"homepage": "https://clicksounds.coopeeo.xyz",
@@ -149,7 +150,7 @@
 	"dependencies": [
         {
             "id": "geode.node-ids",
-            "version": ">=v1.13.1",
+            "version": ">=v1.18.0",
             "importance": "required"
         }
     ],
