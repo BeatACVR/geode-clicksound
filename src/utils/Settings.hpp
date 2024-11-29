@@ -1,5 +1,5 @@
 #pragma once
-#include <Geode/loader/SettingV3.hpp>
+#include <Geode/loader/SettingNodeV3.hpp>
 using namespace geode::prelude;
 // TYSM JOUCA AND FIREE
 
@@ -19,14 +19,14 @@ public:
     bool save(matjson::Value& json) const override {
         return true;
     }
-    SettingNode* createNode(float width) override;
+    SettingNodeV3* createNode(float width) override;
 };
 
 
-class SettingClickNode : public SettingNode {
+class SettingClickNode : public SettingNodeV3 {
 protected:
  bool init(SettingClickValue* value, float width) {
-        if (!SettingNode::init(value))
+        if (!SettingNodeV3::init(value))
             return false;
         this->setContentSize({ width, 35.f });
         auto menu = CCMenu::create();
@@ -100,14 +100,14 @@ public:
     bool save(matjson::Value& json) const override {
         return true;
     }
-    SettingNode* createNode(float width) override;
+    SettingNodeV3* createNode(float width) override;
 };
 
 // RELEASE SOUNDS
-class SettingReleaseNode : public SettingNode {
+class SettingReleaseNode : public SettingNodeV3 {
 protected:
  bool init(SettingReleaseValue* value, float width) {
-        if (!SettingNode::init(value))
+        if (!SettingNodeV3::init(value))
             return false;
         this->setContentSize({ width, 35.f });
         auto menu = CCMenu::create();
